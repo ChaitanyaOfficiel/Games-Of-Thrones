@@ -1,4 +1,4 @@
-import{useState} from 'react'
+import{useState, useEffect} from 'react'
 function Card({family, info}) {
 const [name, setName] = useState([])
 useEffect(() => {
